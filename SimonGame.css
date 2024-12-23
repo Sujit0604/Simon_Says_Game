@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+#score {
+    height: 40px;
+    width: 250px;
+    border: 3px solid black;
+    box-shadow: 8px 8px 10px grey;
+    display: inline-block;
+    position: fixed;
+    left: 10px;
+}
+
+#score h3 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #f12f69;
+}
+
+.yellow {
+    background-color: #d5a22a;
+}
+
+.green {
+    background-color: #31dcae;
+}
+
+.purple {
+    background-color: #af3aaf;
+}
+
+.flash {
+    background-color: black;
+}
+
+.userflash {
+    background-color: rgb(5, 5, 239);
+}
+
